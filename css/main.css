@@ -271,7 +271,14 @@ h4 {
 	width: 15px;
 	border-bottom: 1px solid rgb(83, 142, 83);
 }
-
+.skills-a{
+	text-decoration: none !important;
+	display: block;
+	font-size: 80%;
+}
+.skills-a:hover{
+	color: rgb(83, 142, 83);
+}
 /*Experience End*/
 
 /*Skills Init*/
