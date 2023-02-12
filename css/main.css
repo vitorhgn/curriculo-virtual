@@ -77,19 +77,17 @@ h4 {
 	position: fixed;
 }
 .contentmenu {
-	padding: 10px !important;
-	padding-top: 30px;
+	margin-top: 30px;
 	flex-direction: column;
 	display: flex;
+	gap: 35px;
 }
 .menu a {
 	color: white;
 	text-decoration: none;
-	line-height: 2.5;
 }
 .menu i {
-	font-size: 20px;
-	margin-bottom: 15px;
+	font-size: 22px;
 }
 .menu a:hover {
 	color: rgb(27, 195, 47);
@@ -108,7 +106,6 @@ h4 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 50px;
 	text-transform: uppercase;
 	font-size: 1em;
 	font-weight: 600;
@@ -129,10 +126,10 @@ h4 {
 
 @keyframes animate {
 	0% {
-		background-position: -500%;
+		background-position: -200%;
 	}
 	100% {
-		background-position: 500%;
+		background-position: 350%;
 	}
 }
 /* Animation End*/
@@ -423,7 +420,7 @@ header label:hover {
 .responsive-menu a:hover > .dropdown {
 	display: inline-block;
 }
-@media (max-width: 770px) {
+@media (max-width: 700px) {
 	header {
 		position: absolute;
 		top: 0px;
